@@ -1,0 +1,27 @@
+{
+    "source": "src",
+    "destination": "build",
+    "plugins": {
+        "metalsmith-markdown": true,
+        "metalsmith-env": {
+          "variables": {
+            "DOMAIN": "localhost:5000"
+          }
+        },
+        "metalsmith-filepath": {
+          "absolute": false,
+          "permalinks": false
+        },
+        "metalsmith-directus": {
+          "accessToken": "{YOUR_ACCESS_TOKEN}",
+          "baseURL": "https://{YOUR_DIRECTUS_INSTANCE}.directus.io/api"
+        },
+        "metalsmith-templates": {
+          "engine": "handlebars",
+          "directory": "templates"
+        },
+        "metalsmith-layouts": {
+            "engine": "handlebars"
+        }
+    }
+}

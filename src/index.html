@@ -1,0 +1,40 @@
+---
+layout: theme.html
+---
+
+<div id="app">
+  <div id="categories">
+    <a class='category' v-bind:class="{ active: isMen() }" v-on:click="updateCategory('men')" href='#'>MEN</a>
+    //
+    <a class='category' v-bind:class="{ active: isWomen() }"  v-on:click="updateCategory('women')" href='#'>WOMEN</a>
+  </div>
+
+  <a href="#" v-on:click="shop()" id="CTA">
+    SHOP THIS LOOK
+  </a>
+
+  <div id="fullpage">
+
+    <div v-if="isMen()" v-bind:class="{ section: isMen() }">
+      <img src="./assets/lookbook-men1.jpg" class="image image-men">
+    </div>
+
+    <div v-if="isMen()" v-bind:class="{ section: isMen() }">
+      <img src="./assets/lookbook-men2.jpg" class="image image-men">
+    </div>
+
+    <div v-if="isWomen()" v-bind:class="{ section: isWomen() }">
+      <img src="./assets/lookbook-women2.jpg" class="image image-women">
+    </div>
+
+    <div v-if="isWomen()" v-bind:class="{ section: isWomen() }">
+      <img src="./assets/lookbook-women1.jpg" class="image image-women">
+    </div>
+
+  </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.13/jquery.scrollify.min.js"></script>
+<script src="https://unpkg.com/vue"></script>
+<script src="./vueapp.js"></script>

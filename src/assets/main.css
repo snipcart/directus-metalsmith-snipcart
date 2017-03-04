@@ -1,0 +1,172 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20;
+  padding-left: 23px !important;
+  padding-right: 23px !important;
+  background-color: #E8EAF6;
+  color: #212121;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #3D5AFE;
+}
+
+a {
+  color: #3D5AFE;
+}
+
+.product{
+  background-color: #212121;
+  color: white;
+  padding: 30px;
+  margin: 30px;
+}
+
+.products {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-wrapper {
+  margin-left: 9.5vw;
+}
+
+#categories {
+  font-size: 25;
+  color: #3D5AFE;
+  position: fixed;
+  z-index: 99999999;
+}
+
+#CTA:hover{
+  background-color: transparent;
+  color: #3D5AFE;
+  font-weight: bold;
+  box-shadow: none;
+}
+
+#CTA {
+  padding: 15px;
+  text-align: right;
+  width: 150px;
+  font-size: 25;
+  top: 0;
+  background-color: #E8EAF6;
+  color: #212121;
+  position: fixed;
+  z-index: 999999;
+  box-shadow: 5px 7px 1px #424242;
+  margin-top: 10%;
+}
+
+.back {
+  padding: 15px;
+  text-align: right;
+  width: 150px;
+  font-size: 25;
+  top: 0;
+  background-color: #3D5AFE;
+  color: white !important;
+  position: fixed;
+  z-index: 999999;
+  margin-top: 10%;
+}
+
+.back:hover {
+  background-color: transparent;
+  color: #3D5AFE !important;
+  font-weight: bold;
+}
+
+#footer {
+  position: fixed;
+  bottom:0;
+  height: 60px;
+  background-color: #E8EAF6;
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  font-size: 27;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  font-weight: bold;
+  font-size: 20;
+  color: #212121;
+  padding-top: 5px;
+  text-align: center;
+  background-color: #E8EAF6;
+  width: 100%;
+  height: 70px;
+}
+
+.notice {
+  margin-left: 10px;
+  font-size: 15;
+}
+
+.image{
+  width: 100%;
+}
+
+.product-button{
+  padding: 10px;
+  background-color: #3D5AFE;
+  color: white !important;
+}
+
+.product-description{
+  padding: 20px;
+  color: white;
+  margin: 40px;
+}
+
+.back {
+  color: #212121;
+  font-size: 25;
+  position: fixed;
+}
+
+.product-section{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  align-items: center;
+	position: relative;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+.category {
+  margin: 0;
+  font-size: 30;
+  color: #3D5AFE;
+  letter-spacing: 2px;
+  padding-left: 15px;
+}
+
+.category:first-child {
+  margin-right: 20px;
+}
+
+.
+.active {
+  text-decoration: underline !important;
+}
+
+.category:hover {
+  font-weight: bold;
+}

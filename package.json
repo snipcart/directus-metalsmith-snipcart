@@ -1,0 +1,27 @@
+{
+  "name": "directus-snipcart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm install & metalsmith"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "directus-metalsmith": "^1.0.0",
+    "metalsmith": "^2.3.0",
+    "metalsmith-directus": "^1.0.2",
+    "metalsmith-partial": "^0.1.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.6",
+    "metalsmith-directus": "^1.0.3",
+    "metalsmith-env": "^2.0.0",
+    "metalsmith-filepath": "^1.0.1",
+    "metalsmith-layouts": "^1.8.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-templates": "^0.7.0"
+  }
+}
