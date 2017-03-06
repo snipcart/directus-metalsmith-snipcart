@@ -3,6 +3,9 @@ var app = new Vue({
   data: {
     category: 'men'
   },
+  mounted: function(){
+    this.toggleScroll();
+  },
   methods: {
     shop: function(){
       window.location.href = '/' + this.category + '-products.html';
@@ -13,16 +16,15 @@ var app = new Vue({
     isWomen: function(){
       return !this.isMen();
     },
-    updateCategory: function(value){
-      this.category = value;
-
+    toggleScroll: function(){
       $.scrollify({
         section : ".section",
+        setHeights: false
       });
+    },
+    updateCategory: function(value){
+      this.category = value;
+      this.toggleScroll();
     }
   }
-});
-
-$.scrollify({
-  section : ".section",
 });

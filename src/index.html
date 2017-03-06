@@ -4,9 +4,9 @@ layout: theme.html
 
 <div id="app">
   <div id="categories">
-    <a class='category' v-bind:class="{ active: isMen() }" v-on:click="updateCategory('men')" href='#'>MEN</a>
+    <a class='category' v-bind:class="{ active: isMen() }" v-on:click="updateCategory('men')">MEN</a>
     //
-    <a class='category' v-bind:class="{ active: isWomen() }"  v-on:click="updateCategory('women')" href='#'>WOMEN</a>
+    <a class='category' v-bind:class="{ active: isWomen() }"  v-on:click="updateCategory('women')">WOMEN</a>
   </div>
 
   <a href="#" v-on:click="shop()" id="CTA">

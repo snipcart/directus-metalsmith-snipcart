@@ -14,7 +14,8 @@
         },
         "metalsmith-directus": {
           "accessToken": "{YOUR_ACCESS_TOKEN}",
-          "baseURL": "https://{YOUR_DIRECTUS_INSTANCE}.directus.io/api"
+          "baseURL": "https://{YOUR_DIRECTUS_INSTANCE}.directus.io/api
+          "
         },
         "metalsmith-templates": {
           "engine": "handlebars",
